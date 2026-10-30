@@ -37,28 +37,34 @@
       "name": "Number Checker",
       "doc_slug": "line-bulk-number-checker",
       "input_kind": "phone",
-      "min_numbers": 2000,
+      "min_numbers": 1,
       "max_numbers": 10000000,
       "result_fields": [
         "number",
         "activated"
-      ]
+      ],
+      "product_id": 13,
+      "min_billable_numbers": 2000,
+      "available": true
     },
     {
       "task_type": "line_senior",
       "name": "Profile Checker",
       "doc_slug": "line-profile-checker",
       "input_kind": "phone",
-      "min_numbers": 2000,
+      "min_numbers": 1,
       "max_numbers": 10000000,
       "result_fields": [
         "number",
         "activated"
-      ]
+      ],
+      "product_id": 75,
+      "min_billable_numbers": 2000,
+      "available": true
     }
   ],
   "pricing_url": "https://checknumber.ai/pricing",
   "maintainer": "CheckNumber",
   "license": "MIT",
-  "last_reviewed": "2026-08-18"
+  "last_reviewed": "2026-10-30"
 }
